@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- JobGiver_GetFood_TryGiveJob_Patch -->
+  <!-- {0}:Victim / {1}:Predator -->
+  <PredatorHuntAlert.MessageTargetedByPredator>{0} became the target of {1}!</PredatorHuntAlert.MessageTargetedByPredator>
+  <PredatorHuntAlert.LetterLabelTargetedByPredator>Predator</PredatorHuntAlert.LetterLabelTargetedByPredator>
+  <!-- {0}:Victim / {1}:Predator -->
+  <PredatorHuntAlert.LetterTextTargetedByPredator>{0} became the target of {1}!</PredatorHuntAlert.LetterTextTargetedByPredator>
+  <!-- PredatorHuntAlertMod -->
+  <PredatorHuntAlert.SettingAlertType>How to alert to the danger of predator</PredatorHuntAlert.SettingAlertType>
+  <PredatorHuntAlert.SettingAlertTypeMessage>Message</PredatorHuntAlert.SettingAlertTypeMessage>
+  <PredatorHuntAlert.SettingAlertTypeLetter>Letter</PredatorHuntAlert.SettingAlertTypeLetter>
+  <PredatorHuntAlert.SettingFocusTarget>Focus target</PredatorHuntAlert.SettingFocusTarget>
+  <PredatorHuntAlert.SettingFocusTargetPredator>Predator</PredatorHuntAlert.SettingFocusTargetPredator>
+  <PredatorHuntAlert.SettingFocusTargetVictim>Victim</PredatorHuntAlert.SettingFocusTargetVictim>
+  <PredatorHuntAlert.SettingAlertCulpritSequence>The order of alert culprit</PredatorHuntAlert.SettingAlertCulpritSequence>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>No alert</PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>
+  <PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>Only predator</PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>Only victim</PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>Alternate predator and victim</PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>
+  <PredatorHuntAlert.SettingPauseOnTargeted>Pause on targeted by predator</PredatorHuntAlert.SettingPauseOnTargeted>
+  <PredatorHuntAlert.SettingEnablePredatorAlert>Enable predator alert</PredatorHuntAlert.SettingEnablePredatorAlert>
+  <PredatorHuntAlert.SettingEnableManhunterAlert>Enable manhunter alert</PredatorHuntAlert.SettingEnableManhunterAlert>
+  <!-- Alert_PredatorHunt -->
+  <PredatorHunt.AlertPredatorHuntLabel>Targeted by predator</PredatorHunt.AlertPredatorHuntLabel>
+  <!-- {0}:Victim / {1}:Predator / {2}:Number of predators -->
+  <PredatorHunt.AlertPredatorHuntDescription>{0} is the target of {1} x{2}.</PredatorHunt.AlertPredatorHuntDescription>
+  <!-- Alert_Predator -->
+  <PredatorHunt.AlertPredatorLabel>Predators in map</PredatorHunt.AlertPredatorLabel>
+  <PredatorHunt.AlertPredatorDescriptionBase>The following predators are in this map.\n</PredatorHunt.AlertPredatorDescriptionBase>
+  <!-- {0}:Predator / {1}:Number of predators -->
+  <PredatorHunt.AlertPredatorDescriptionItems>- {0} x{1}</PredatorHunt.AlertPredatorDescriptionItems>
+  <!-- Alert_Manhunter -->
+  <PredatorHunt.AlertManhunterLabel>Manhunters in map</PredatorHunt.AlertManhunterLabel>
+  <PredatorHunt.AlertManhunterDescriptionBase>The following manhunters are in this map.\n</PredatorHunt.AlertManhunterDescriptionBase>
+  <!-- {0}:Manhunter / {1}:Permanent label / {2}:Number of manhunters -->
+  <PredatorHunt.AlertManhunterDescriptionItems>- {0} {1} x{2}</PredatorHunt.AlertManhunterDescriptionItems>
+  <PredatorHunt.AlertManhunterDescriptionItemsPermanent>(Permanent)</PredatorHunt.AlertManhunterDescriptionItemsPermanent>
+  <PredatorHuntAlert.CurrentModVersion>Installed mod-version: {0}</PredatorHuntAlert.CurrentModVersion>
+</LanguageData>

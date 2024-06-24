@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- JobGiver_GetFood_TryGiveJob_Patch -->
+  <!-- {0}:Victim / {1}:Predator -->
+  <PredatorHuntAlert.MessageTargetedByPredator>{0}成為了{1}的目標!</PredatorHuntAlert.MessageTargetedByPredator>
+  <PredatorHuntAlert.LetterLabelTargetedByPredator>捕食者</PredatorHuntAlert.LetterLabelTargetedByPredator>
+  <!-- {0}:Victim / {1}:Predator -->
+  <PredatorHuntAlert.LetterTextTargetedByPredator>{0}成為了{1}的目標!</PredatorHuntAlert.LetterTextTargetedByPredator>
+  <!-- PredatorHuntAlertMod -->
+  <PredatorHuntAlert.SettingAlertType>如何警惕捕食者的危險</PredatorHuntAlert.SettingAlertType>
+  <PredatorHuntAlert.SettingAlertTypeMessage>消息</PredatorHuntAlert.SettingAlertTypeMessage>
+  <PredatorHuntAlert.SettingAlertTypeLetter>信</PredatorHuntAlert.SettingAlertTypeLetter>
+  <PredatorHuntAlert.SettingFocusTarget>鎖定目標</PredatorHuntAlert.SettingFocusTarget>
+  <PredatorHuntAlert.SettingFocusTargetPredator>捕食者</PredatorHuntAlert.SettingFocusTargetPredator>
+  <PredatorHuntAlert.SettingFocusTargetVictim>被捕食者</PredatorHuntAlert.SettingFocusTargetVictim>
+  <PredatorHuntAlert.SettingAlertCulpritSequence>警覺捕食者的命令</PredatorHuntAlert.SettingAlertCulpritSequence>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>冇有警報</PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>
+  <PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>僅捕食者</PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>僅被捕食者</PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>
+  <PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>切換捕食者和被捕食者</PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>
+  <PredatorHuntAlert.SettingPauseOnTargeted>被捕食者鎖定時暫停</PredatorHuntAlert.SettingPauseOnTargeted>
+  <PredatorHuntAlert.SettingEnablePredatorAlert>啓用捕食者警報</PredatorHuntAlert.SettingEnablePredatorAlert>
+  <PredatorHuntAlert.SettingEnableManhunterAlert>啓用獵人警報</PredatorHuntAlert.SettingEnableManhunterAlert>
+  <!-- Alert_PredatorHunt -->
+  <PredatorHunt.AlertPredatorHuntLabel>被捕食者盯上了</PredatorHunt.AlertPredatorHuntLabel>
+  <!-- {0}:Victim / {1}:Predator / {2}:Number of predators -->
+  <PredatorHunt.AlertPredatorHuntDescription>{0} 成為目標 {1} x{2}.</PredatorHunt.AlertPredatorHuntDescription>
+  <!-- Alert_Predator -->
+  <PredatorHunt.AlertPredatorLabel>地圖中的捕食者</PredatorHunt.AlertPredatorLabel>
+  <PredatorHunt.AlertPredatorDescriptionBase>以下食肉動物在這張地圖上。\n</PredatorHunt.AlertPredatorDescriptionBase>
+  <!-- {0}:Predator / {1}:Number of predators -->
+  <PredatorHunt.AlertPredatorDescriptionItems>- {0} x{1}</PredatorHunt.AlertPredatorDescriptionItems>
+  <!-- Alert_Manhunter -->
+  <PredatorHunt.AlertManhunterLabel>地圖上的獵人</PredatorHunt.AlertManhunterLabel>
+  <PredatorHunt.AlertManhunterDescriptionBase>下麵的獵人在這張地圖上。\n</PredatorHunt.AlertManhunterDescriptionBase>
+  <!-- {0}:Manhunter / {1}:Permanent label / {2}:Number of manhunters -->
+  <PredatorHunt.AlertManhunterDescriptionItems>- {0} {1} x{2}</PredatorHunt.AlertManhunterDescriptionItems>
+  <PredatorHunt.AlertManhunterDescriptionItemsPermanent>(永久的)</PredatorHunt.AlertManhunterDescriptionItemsPermanent>
+</LanguageData>
