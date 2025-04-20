@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- JobGiver_GetFood_TryGiveJob_Patch -->
+  <!-- {0}:Victim / {1}:Predator -->
+  <!-- {0} became the target of {1}! -->
+  <PredatorHuntAlert.MessageTargetedByPredator>{0} стал целью для {1}!</PredatorHuntAlert.MessageTargetedByPredator>
+  <!-- Predator -->
+  <PredatorHuntAlert.LetterLabelTargetedByPredator>Хищник</PredatorHuntAlert.LetterLabelTargetedByPredator>
+  <!-- {0}:Victim / {1}:Predator -->
+  <!-- {0} became the target of {1}! -->
+  <PredatorHuntAlert.LetterTextTargetedByPredator>{0} стал целью для {1}!</PredatorHuntAlert.LetterTextTargetedByPredator>
+  <!-- PredatorHuntAlertMod -->
+  <!-- How to alert to the danger of predator -->
+  <PredatorHuntAlert.SettingAlertType>Выбрать тип оповещения об опасности нападения</PredatorHuntAlert.SettingAlertType>
+  <!-- Message -->
+  <PredatorHuntAlert.SettingAlertTypeMessage>Уведомление</PredatorHuntAlert.SettingAlertTypeMessage>
+  <!-- Letter -->
+  <PredatorHuntAlert.SettingAlertTypeLetter>Письмо</PredatorHuntAlert.SettingAlertTypeLetter>
+  <!-- Focus target -->
+  <PredatorHuntAlert.SettingFocusTarget>Приоритетная цель</PredatorHuntAlert.SettingFocusTarget>
+  <!-- Predator -->
+  <PredatorHuntAlert.SettingFocusTargetPredator>Хищник</PredatorHuntAlert.SettingFocusTargetPredator>
+  <!-- Victim -->
+  <PredatorHuntAlert.SettingFocusTargetVictim>Жертва</PredatorHuntAlert.SettingFocusTargetVictim>
+  <!-- The order of alert culprit -->
+  <PredatorHuntAlert.SettingAlertCulpritSequence>Кого показать при опасности</PredatorHuntAlert.SettingAlertCulpritSequence>
+  <!-- No alert -->
+  <PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>Никого</PredatorHuntAlert.SettingAlertCulpritSequenceNoAlert>
+  <!-- Only predator -->
+  <PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>Только хищник</PredatorHuntAlert.SettingAlertCulpritSequencePredatorOnly>
+  <!-- Only victim -->
+  <PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>Только жертва</PredatorHuntAlert.SettingAlertCulpritSequenceVictimOnly>
+  <!-- Alternate predator and victim -->
+  <PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>Переключать хищника и жертву</PredatorHuntAlert.SettingAlertCulpritSequenceAlternatePredatorAndVictim>
+  <!-- Pause on targeted by predator -->
+  <PredatorHuntAlert.SettingPauseOnTargeted>Пауза при выборе хищником цели</PredatorHuntAlert.SettingPauseOnTargeted>
+  <!-- Enable predator alert -->
+  <PredatorHuntAlert.SettingEnablePredatorAlert>Включить оповещение о хищнике</PredatorHuntAlert.SettingEnablePredatorAlert>
+  <!-- Enable manhunter alert -->
+  <PredatorHuntAlert.SettingEnableManhunterAlert>Оповещение о агрессивных животных</PredatorHuntAlert.SettingEnableManhunterAlert>
+  <!-- Alert_PredatorHunt -->
+  <!-- Targeted by predator -->
+  <PredatorHunt.AlertPredatorHuntLabel>Хищник атакует</PredatorHunt.AlertPredatorHuntLabel>
+  <!-- {0}:Victim / {1}:Predator / {2}:Number of predators -->
+  <!-- {0} is the target of {1} x{2}. -->
+  <PredatorHunt.AlertPredatorHuntDescription>{0} является целью для {1} x{2}.</PredatorHunt.AlertPredatorHuntDescription>
+  <!-- Alert_Predator -->
+  <!-- Predators in map -->
+  <PredatorHunt.AlertPredatorLabel>Хищники на карте</PredatorHunt.AlertPredatorLabel>
+  <!-- The following predators are in this map.\n -->
+  <PredatorHunt.AlertPredatorDescriptionBase>Список тех, кто может вас съесть:\n</PredatorHunt.AlertPredatorDescriptionBase>
+  <!-- {0}:Predator / {1}:Number of predators -->
+  <!-- - {0} x{1} -->
+  <PredatorHunt.AlertPredatorDescriptionItems>- {0} x{1}</PredatorHunt.AlertPredatorDescriptionItems>
+  <!-- Alert_Manhunter -->
+  <!-- Manhunters in map -->
+  <PredatorHunt.AlertManhunterLabel>Агрессивные животные на карте</PredatorHunt.AlertManhunterLabel>
+  <!-- The following manhunters are in this map.\n -->
+  <PredatorHunt.AlertManhunterDescriptionBase>На карте обнаружены агрессивные животные\n</PredatorHunt.AlertManhunterDescriptionBase>
+  <!-- {0}:Manhunter / {1}:Permanent label / {2}:Number of manhunters -->
+  <!-- - {0} {1} x{2} -->
+  <PredatorHunt.AlertManhunterDescriptionItems>- {0} {1} x{2}</PredatorHunt.AlertManhunterDescriptionItems>
+  <!-- (Permanent) -->
+  <PredatorHunt.AlertManhunterDescriptionItemsPermanent>(Permanent)</PredatorHunt.AlertManhunterDescriptionItemsPermanent>
+  <!-- Installed mod-version: {0} -->
+  <PredatorHuntAlert.CurrentModVersion>Установленная версия мода: {0}</PredatorHuntAlert.CurrentModVersion>
+</LanguageData>

@@ -1,5 +1,8 @@
 # Changelog for PredatorHuntAlert
 
+1.5.1 - Added Russian translation, thanks BEE-YEEEEETCH
+
+
 1.5.0 - First publish
 Used DeepL to update translations for ChineseSimplified, French, German, Japanese, Polish, Spanish
 
