@@ -23,17 +23,17 @@ internal class JobGiver_GetFood_TryGiveJob
 
         if (PredatorHuntAlertMod.Settings.alertType == PredatorHuntAlertSettings.AlertType.Letter)
         {
-            SendLetter(pawn, victim);
+            sendLetter(pawn, victim);
             return;
         }
 
         if (PredatorHuntAlertMod.Settings.alertType == PredatorHuntAlertSettings.AlertType.Message)
         {
-            SendMessage(pawn, victim);
+            sendMessage(pawn, victim);
         }
     }
 
-    private static void SendMessage(Pawn predator, Pawn victim)
+    private static void sendMessage(Pawn predator, Pawn victim)
     {
         var pawn = Util.ResolveFocusTarget(predator, victim);
         Messages.Message(
@@ -41,7 +41,7 @@ internal class JobGiver_GetFood_TryGiveJob
             MessageTypeDefOf.NegativeEvent);
     }
 
-    private static void SendLetter(Pawn predator, Pawn victim)
+    private static void sendLetter(Pawn predator, Pawn victim)
     {
         var pawn = Util.ResolveFocusTarget(predator, victim);
         string label = "PredatorHuntAlert.LetterLabelTargetedByPredator".Translate();

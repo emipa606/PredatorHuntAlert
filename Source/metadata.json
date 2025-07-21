@@ -3,7 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "0",
   "SocialImageSet": true,
-  "PreviewVersion": "1.5",
-  "LastXmlCleaning": "2025-04-20T19:04:51.1452315+02:00",
-  "SearchTags": "alerts"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-21T21:45:55.9720603+02:00",
+  "SearchTags": "alerts",
+  "Patches": false,
+  "Defs": false,
+  "Assemblies": true,
+  "LinesOfCode": 16237,
+  "LinesOfXML": 0,
+  "CodeBaseSize": 67
 }

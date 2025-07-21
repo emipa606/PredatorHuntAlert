@@ -13,7 +13,7 @@ public class Alert_PredatorHunt : Alert_Critical
         defaultLabel = "PredatorHunt.AlertPredatorHuntLabel".Translate();
     }
 
-    private IEnumerable<Pair<Pawn, Pawn>> PredatorAndVictimPairs
+    private static IEnumerable<Pair<Pawn, Pawn>> PredatorAndVictimPairs
     {
         get
         {
